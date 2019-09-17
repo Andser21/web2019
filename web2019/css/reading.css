@@ -1,0 +1,14 @@
+body{
+	background: orange;
+	color: brown;
+	font-size: 35px;
+}
+h1{
+	font-weight: thick;
+	font-size: 150px;
+	/*font-family:helvetica;*/
+	position: relative;
+	left: 50px;
+	height: -15px;
+
+}
