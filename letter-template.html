@@ -1,0 +1,1028 @@
+<!doctype html>
+<html lang="">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="x-ua-compatible" content="ie=edge">
+        <title>🔤🧾🔤🧾🔤🧾🔤🧾🔤🧾🔤🧾🔤🧾🔤🧾🔤🧾🔤🧾</title>
+        <style>
+        	/* this is a comment in CSS. MOVE THIS STYLE TO A SEPARATE FILE */
+
+
+        	.letter {
+
+        		width:200px; /*resize as you see fit */
+        		height:300px; /*resize as you see fit */
+        		display:inline-block; /* this makes block level elements act like letters (so they sit next to eachother) */
+        		border:1px solid #000; /*feel free to remove or hide this rule */
+        		position:relative; /* IMPORTANT: any element with position:absolute inside this container will now be relative to bounds of this element; */
+        	}
+
+        	#LettersA{
+			content: "";
+			position: absolute;
+			top: 35px;
+			left: 35px;
+			width: 20px;
+			height: 20px;
+			border-style: outset;
+			border-color:  blue white;
+			border-width: 0 5px 75px 5px;
+			transform: rotate(40deg);
+		}
+		#leftA{
+			content: "";
+			position: absolute;
+			top: 35px;
+			left: 75px;
+			width: 10px;
+			height: 20px;
+			border-style: solid;
+			border-color: transparent transparent blue transparent;
+			border-width: 0 5px 75px 5px;
+			transform: rotate(-20deg);
+		}
+		#BabyA{
+			content: "";
+			position: relative;
+			top: 35%;
+			left: 20%;
+			width: 50px;
+			height: 5px;
+			background-color: pink;
+		}
+
+		#upperloop{
+			content: "";
+			position: absolute;
+			left: 50px;
+  			top: 70px;
+  			border-color: blue;
+  			border: 20px outset blue;
+  			border-radius: 18px;
+  			box-shadow: 0 0 2px #888;
+  			height: 10px;
+  			width: 30px;
+
+		}
+		#lowerloop{
+			content: "";
+			position: absolute;
+			left: 50px;
+  			top: 120px;
+  			border-color: blue white;
+  			border: 20px outset blue;
+  			border-radius: 18px;
+  			box-shadow: 0 0 2px #888;
+  			height: 10px;
+  			width: 45px;
+  		}
+  		#stemB2{
+			content: "";
+			position: absolute;
+			top: 70px;
+			left: 40px;
+			width: 25px;
+			height: 100px;
+			background-color: pink;
+		}
+		#curve{
+			content: "";
+			position: absolute;
+			top: 70px;
+			left: 80px;
+			width: 50px;
+  			height: 60px;
+  			border: 25px outset pink;
+  			border-radius: 65%;
+  			border-bottom-color: transparent;
+  			border-left-color: transparent;
+			transform: rotate(-150deg);
+		}
+			#stemd{
+			content: "";
+			position: absolute;
+			top: 30px;
+			left: 80px;
+			width: 30px;
+			height: 42px;
+			border-style: outset;
+			border-color:  pink white;
+			border-width: 25px 5px 75px 5px;
+		}
+		#curved{
+			content: "";
+			position: absolute;
+			top: 90px;
+			left: 45px;
+			width: 80px;
+  			height: 75px;
+  			border: 30px outset blue;
+  			border-radius: 50%;
+  			border-bottom-color: transparent;
+  			border-left-color: transparent;
+			transform: rotate(47deg);
+
+		}
+		#curvee{
+			content: "";
+			position: absolute;
+			top: 150px;
+			left: 40px;
+			width:60px; 
+     		height:60px; 
+     		border:1px solid pink; 
+     		background: blue;
+     		border-radius: 0 0 0 90px;
+		}
+		#uppercurve{
+			content: "";
+			position: absolute;
+			top: 88px;
+			left: 40px;
+			width:60px; 
+     		height:60px; 
+     		border:1px solid blue; 
+     		background: pink;
+     		border-radius: 90px 0 0 0;
+		}
+		#upperlefftcurve{
+			content: "";
+			position: absolute;
+			top: 88px;
+			left: 100px;
+			width:40px; 
+     		height:40px; 
+     		border:1px solid pink; 
+     		background: blue;
+     		border-radius: 0 90px 0 0;
+		}
+		#lowercurve{
+			content: "";
+			position: absolute;
+			top: 180px;
+			left: 100px;
+			width:40px; 
+     		height:30px; 
+     		border:1px solid blue; 
+     		background: pink;
+     		border-radius: 0 0 90px 0;
+		}
+		#steme{
+			content: "";
+			position: absolute;
+			top: 140px;
+			left: 100px;
+			width: 40px;
+			height: 2px;
+			border-style: outset;
+			border-color:  pink white;
+			border-width: 12px 2px 12px 2px;
+		}
+		#stemf{
+			content: "";
+			position: absolute;
+			top: 69px;
+			left: 50px;
+			width: 30px;
+			height: 42px;
+			border-style: outset;
+			border-color:  blue white;
+			border-width: 25px 5px 75px 5px;
+		}
+		#layf{
+			content: "";
+			position: absolute;
+			top: 69px;
+			left: 50px;
+			width: 30px;
+			height: 42px;
+			border-style: outset;
+			border-color:  pink pink;
+			border-width: 2px 60px 2px 25px;
+		}
+		#middlestem{
+			content: "";
+			position: absolute;
+			top: 130px;
+			left: 80px;
+			width: 40px;
+			height: 2px;
+			border-style: outset;
+			border-color:  pink white;
+			border-width: 12px 2px 12px 2px;
+		}
+		#upperg{
+			content: "";
+			position: absolute;
+			top: 150px;
+			left: 40px;
+			width:60px; 
+     		height:60px; 
+     		border:1px solid pink; 
+     		background: pink;
+     		border-radius: 0 0 0 90px;
+		}
+		#lowerg{
+			content: "";
+			position: absolute;
+			top: 88px;
+			left: 40px;
+			width:60px; 
+     		height:60px; 
+     		border:1px solid blue; 
+     		background: blue;
+     		border-radius: 90px 0 0 0;
+		}
+		#leftlower{
+			content: "";
+			position: absolute;
+			top: 88px;
+			left: 100px;
+			width:60px; 
+     		height:55px; 
+     		border:1px solid pink; 
+     		background: blue;
+     		border-radius: 0 90px 0 0;
+		}
+		#leftupper{
+			content: "";
+			position: absolute;
+			top: 155px;
+			left: 100px;
+			width:70px; 
+     		height:55px; 
+     		border:1px solid blue; 
+     		background: pink;
+     		border-radius: 0 0 30px 0;
+		}
+		#stemh{
+			content: "";
+			position: absolute;
+			top: 69px;
+			left: 50px;
+			width: 30px;
+			height: 42px;
+			border-style: outset;
+			border-color:  pink white;
+			border-width: 25px 5px 75px 5px;
+		}
+		#looph{
+			content: "";
+			position: absolute;
+			top: 140px;
+			left: 80px;
+			width: 70px;
+			height: 2px;
+			border-style: outset;
+			border-color:  pink blue blue;
+			border-width: 12px 2px 12px 2px;
+		}
+		#rightstemh{
+			content: "";
+			position: absolute;
+			top: 69px;
+			left: 120px;
+			width: 30px;
+			height: 42px;
+			border-style: outset;
+			border-color:  blue white blue;
+			border-width: 25px 5px 75px 5px;
+		}
+		#istem{
+			content: "";
+			position: absolute;
+			top: 69px;
+			left: 80px;
+			width: 30px;
+			height: 42px;
+			border-style: outset;
+			border-color:  blue white pink blue;
+			border-width: 25px 10px 75px 10px;
+		}
+		#topstem{
+			content: "";
+			position: absolute;
+			top: 50px;
+			left: 50px;
+			width: 100px;
+			height: 2px;
+			border-style: outset;
+			border-color:  pink pink;
+			border-width: 12px 2px 12px 2px;
+		}
+		#bottomstem{
+			content: "";
+			position: absolute;
+			top: 200px;
+			left: 50px;
+			width: 100px;
+			height: 2px;
+			border-style: outset;
+			border-color:  blue blue;
+			border-width: 12px 2px 12px 2px;
+		}
+		#stemj{
+			content: "";
+			position: absolute;
+			top: 59px;
+			left: 115px;
+			width: 13px;
+			height: 42px;
+			border-style: outset;
+			border-color:  blue blue blue blue;
+			border-width: 25px 10px 75px 10px;
+			border-radius: 5px;
+		}
+		#curvej{
+			content: "";
+			position: absolute;
+			top: 90px;
+			left: 40px;
+			width: 40px;
+  			height: 60px;
+  			border: 30px outset pink;
+  			border-radius: 65%;
+  			border-bottom-color: transparent;
+  			border-left-color: transparent;
+			transform: rotate(130deg);
+		}
+		#stemk{
+			position: absolute;
+			top: 39px;
+			left: 30px;
+			width: 0px;
+			height: 80px;
+			border-style: outset;
+			border-color:  white blue blue white;
+			border-width: 25px 20px 75px 20px;
+		}
+		#topk{
+			position: absolute;
+			top: 20px;
+			left: 80px;
+			width: 8px;
+			height: 10px;
+			border-style: outset;
+			border-color:  pink white pink white;
+			border-width: 25px 10px 75px 10px;
+			border-radius: 5px;
+			transform: rotate(45deg);
+		}
+		#bottomk{
+			position: absolute;
+			top: 120px;
+			left: 90px;
+			width: 8px;
+			height: 10px;
+			border-style: outset;
+			border-color:  blue pink blue pink;
+			border-width: 25px 10px 75px 10px;
+			border-radius: 5px;
+			transform: rotate(130deg);
+		}
+		#steml{
+			position: absolute;
+			top: 39px;
+			left: 30px;
+			width: 0px;
+			height: 80px;
+			border-style: outset;
+			border-color:  white pink white blue;
+			border-width: 25px 20px 75px 20px;
+		}
+		#layl{
+			content: "";
+			position: absolute;
+			top: 190px;
+			left: 70px;
+			width: 100px;
+			height: 5px;
+			border-style: outset;
+			border-color: blue blue blue white;
+			border-width: 12px 4px 12px 4px;
+		}
+		#straight{
+			position: absolute;
+			top: 69px;
+			left: 10px;
+			width: 30px;
+			height: 42px;
+			border-style: outset;
+			border-color:  pink white pink;
+			border-width: 25px 5px 75px 5px;
+			transform: rotate(180deg);
+		}
+		#leftdia{
+			position: absolute;
+			top: 70px;
+			left: 40px;
+			width: 20px;
+			height: 10px;
+			border-style: outset;
+			border-color:  white pink blue;
+			border-width: 25px 5px 45px 5px;
+			transform: rotate(-30deg);
+		}
+		#leftstraight{
+			position: absolute;
+			top: 68px;
+			left: 128px;
+			width: 20px;
+			height: 42px;
+			border-style: outset;
+			border-color:  white blue blue;
+			border-width: 25px 5px 75px 5px;
+			transform: rotate(180deg);
+		}
+		#rightdia{
+			position: absolute;
+			top: 70px;
+			left: 105px;
+			width: 20px;
+			height: 10px;
+			border-style: outset;
+			border-color:  pink white blue;
+			border-width: 25px 5px 45px 5px;
+			transform: rotate(-150deg);
+		}
+		#stemn{
+			position: absolute;
+			top: 68px;
+			left: 30px;
+			width: 30px;
+			height: 42px;
+			border-style: outset;
+			border-color:  blue white blue blue;
+			border-width: 15px 3px 75px 3px;
+			transform: rotate(180deg);
+		}
+		#dian{
+			position: absolute;
+			top: 73px;
+			left: 118px;
+			width: 20px;
+			height: 42px;
+			border-style: outset;
+			border-color:  white pink blue;
+			border-width: 15px 5px 75px 5px;
+			transform: rotate(360deg);
+		}
+		#leftn{
+			position: absolute;
+			top: 50px;
+			left: 80px;
+			width: 20px;
+			height: 90px;
+			border-style: outset;
+			border-color:  white blue pink;
+			border-width: 25px 5px 45px 5px;
+			transform: rotate(-30deg);
+		}
+		#circle{
+			content: "";
+			position: absolute;
+			left: 50px;
+  			top: 120px;
+  			border-color: pink;
+  			border: 20px outset pink;
+  			border-radius: 80px;
+  			box-shadow: 0 0 2px #888;
+  			height: 80px;
+  			width: 80px;
+		}
+		#stemp{
+			position: absolute;
+			top: 73px;
+			left: 50px;
+			width: 20px;
+			height: 42px;
+			border-style: outset;
+			border-color:  blue pink white blue;
+			border-width: 15px 10px 75px 5px;
+			transform: rotate(360deg);
+		}
+		#toploop{
+			content: "";
+			position: absolute;
+			top: 73px;
+			left: 85px;
+			width:60px; 
+     		height:40px; 
+     		border:3px solid blue; 
+     		background: pink;
+     		border-radius: 0 90px 0 0;
+		}
+		#bottomloop{
+			content: "";
+			position: absolute;
+			top: 118px;
+			left: 85px;
+			width:60px; 
+     		height:40px; 
+     		border:3px solid pink; 
+     		background: blue;
+     		border-radius: 0 0 90px 0;
+		}
+		#stemq{
+			position: absolute;
+			top: 73px;
+			left: 150px;
+			width: 20px;
+			height: 42px;
+			border-style: outset;
+			border-color: white pink blue;
+			border-width: 15px 10px 75px 5px;
+			transform: rotate(360deg);
+		}
+		#loopq{
+			content: "";
+			position: absolute;
+			top: 80px;
+			left: 110px;
+			width: 30px;
+  			height: 30px;
+  			border: 25px outset blue;
+  			border-radius: 40%;
+  			border-bottom-color: transparent;
+  			border-left-color: transparent;
+			transform: rotate(-135deg);
+		}
+		#stemr{
+			position: absolute;
+			top: 73px;
+			left: 50px;
+			width: 20px;
+			height: 42px;
+			border-style: outset;
+			border-color:  pink white blue blue;
+			border-width: 15px 10px 75px 5px;
+			transform: rotate(360deg);
+		}
+		#loopr{
+			content: "";
+			position: absolute;
+			top: 73px;
+			left: 40px;
+			width: 30px;
+  			height: 30px;
+  			border: 30px outset pink;
+  			border-radius: 60%;
+  			border-bottom-color: transparent;
+  			border-left-color: transparent;
+			transform: rotate(45deg);
+		}
+		#diar{
+			position: absolute;
+			top: 130px;
+			left: 80px;
+			width: 20px;
+			height: 10px;
+			border-style: outset;
+			border-color:  white pink blue;
+			border-width: 25px 5px 45px 5px;
+			transform: rotate(-30deg);
+		}
+		#uppers{
+			content: "";
+			position: absolute;
+			top: 73px;
+			left: 40px;
+			width: 30px;
+  			height: 30px;
+  			border: 30px outset blue;
+  			border-radius: 60%;
+  			border-bottom-color: transparent;
+  			border-left-color: transparent;
+			transform: rotate(280deg);
+		}
+		#middles{
+			content: "";
+			position: absolute;
+			top: 73px;
+			left: 40px;
+			width: 30px;
+  			height: 30px;
+  			border: 30px outset pink;
+  			border-radius: 60%;
+  			border-bottom-color: transparent;
+  			border-left-color: transparent;
+			transform: rotate(180deg);
+		}
+		#lefts{
+			content: "";
+			position: absolute;
+			top: 130px;
+			left: 43px;
+			width: 30px;
+  			height: 30px;
+  			border: 30px outset blue;
+  			border-radius: 80%;
+  			border-bottom-color: transparent;
+  			border-left-color: transparent;
+			transform: rotate(52deg);
+		}
+		#bottoms{
+			content: "";
+			position: absolute;
+			top: 130px;
+			left: 43px;
+			width: 30px;
+  			height: 30px;
+  			border: 30px outset pink;
+  			border-radius: 80%;
+  			border-bottom-color: transparent;
+  			border-left-color: transparent;
+			transform: rotate(120deg);
+		}
+		#stemd{
+			position: absolute;
+			top: 90px;
+			left: 80px;
+			width: 20px;
+			height: 42px;
+			border-style: outset;
+			border-color:  white white blue pink;
+			border-width: 15px 10px 75px 5px;
+			transform: rotate(360deg);
+		}
+		#layt{
+			position: absolute;
+			top: 15px;
+			left: 90px;
+			width: 20px;
+			height: 42px;
+			border-style: outset;
+			border-color:  blue white blue blue;
+			border-width: 25px 5px 75px 5px;
+			transform: rotate(90deg);
+		}
+		#stemleft{
+			content: "";
+			position: absolute;
+			top: 45px;
+			left: 20px;
+			width: 30px;
+			height: 42px;
+			border-style: outset;
+			border-color:  blue white pink;
+			border-width: 25px 5px 75px 5px;
+		}
+		#stemright{
+			content: "";
+			position: absolute;
+			top: 45px;
+			left: 130px;
+			width: 30px;
+			height: 42px;
+			border-style: outset;
+			border-color:  white pink blue;
+			border-width: 25px 5px 75px 5px;
+		}
+		#curveu{
+			content: "";
+			position: absolute;
+			top: 130px;
+			left: 40px;
+			width: 50px;
+  			height: 50px;
+  			border: 30px outset pink;
+  			border-radius: 65%;
+  			border-bottom-color: transparent;
+  			border-left-color: transparent;
+			transform: rotate(135deg);
+			border-radius: 5px;
+		}
+		#leftv{
+			position: absolute;
+			top: 30px;
+			left: 40px;
+			width: 20px;
+			height: 90px;
+			border-style: outset;
+			border-color:  white blue pink;
+			border-width: 25px 5px 45px 5px;
+			transform: rotate(-30deg);
+		}
+		#rightv{
+			position: absolute;
+			top: 30px;
+			left: 100px;
+			width: 20px;
+			height: 90px;
+			border-style: outset;
+			border-color: blue pink blue;
+			border-width: 25px 5px 45px 5px;
+			transform: rotate(210deg);
+		}
+		#leftw{
+			content: "";
+			position: absolute;
+			top: 130px;
+			left: 20px;
+			width: 20px;
+  			height: 20px;
+  			border: 30px outset pink;
+  			border-radius: 65%;
+  			border-bottom-color: transparent;
+  			border-left-color: transparent;
+			transform: rotate(135deg);
+			border-radius: 5px;
+		}
+		#rightw{
+			content: "";
+			position: absolute;
+			top: 130px;
+			left: 90px;
+			width: 20px;
+  			height: 20px;
+  			border: 30px outset blue;
+  			border-radius: 65%;
+  			border-bottom-color: transparent;
+  			border-left-color: transparent;
+			transform: rotate(135deg);
+			border-radius: 5px;
+		}
+		#leftx{
+			position: absolute;
+			top: 30px;
+			left: 80px;
+			width: 20px;
+			height: 90px;
+			border-style: outset;
+			border-color:  blue white blue pink;
+			border-width: 25px 10px 45px 10px;
+			transform: rotate(-50deg);
+		}
+		#rightx{
+			position: absolute;
+			top: 30px;
+			left: 100px;
+			width: 20px;
+			height: 90px;
+			border-style: outset;
+			border-color: pink blue pink blue;
+			border-width: 25px 5px 45px 5px;
+			transform: rotate(220deg);
+		}
+		#curvey{
+			content: "";
+			position: absolute;
+			top: 30px;
+			left: 40px;
+			width: 50px;
+  			height: 50px;
+  			border: 30px outset pink;
+  			border-radius: 65%;
+  			border-bottom-color: transparent;
+  			border-left-color: transparent;
+			transform: rotate(135deg);
+			border-radius: 15px;
+		}
+		#stemy{
+			content: "";
+			position: absolute;
+			top: 145px;
+			left: 80px;
+			width: 20px;
+			height: 10px;
+			border-style: outset;
+			border-color: transparent pink blue;
+			border-width: 25px 5px 75px 5px;	
+		}
+		#upperz{
+			content: "";
+			position: absolute;
+			top: 50px;
+			left: 50px;
+			width: 100px;
+			height: 2px;
+			border-style: outset;
+			border-color:  pink blue;
+			border-width: 12px 2px 12px 2px;
+		}
+		#anglez{
+			position: absolute;
+			top: 40px;
+			left: 100px;
+			width: 20px;
+			height: 50px;
+			border-style: outset;
+			border-color: pink blue pink blue;
+			border-width: 25px 5px 75px 5px;
+			transform: rotate(220deg);
+		}
+		#lowerz{
+			content: "";
+			position: absolute;
+			top: 155px;
+			left: 55px;
+			width: 110px;
+			height: 2px;
+			border-style: outset;
+			border-color: blue pink;
+			border-width: 12px 2px 12px 2px;
+		}
+
+
+        </style>
+    </head>
+    <body>
+    	<!--this is a comment in html-->
+    	
+
+
+		<div class="letter letter-a"> 
+			<div id="LettersA"></div>
+			<div id="leftA"></div>
+			<div id="BabyA"> </div>   		
+    	</div>
+
+		<div class="letter letter-b"> 
+			  	<div id="upperloop"></div>	
+			  	<div id="lowerloop"></div>
+			  	<div id="stemB2"></div>
+
+    	</div>
+
+    	<div class="letter letter-c"> 
+    		
+    		<div id="curve"> </div>
+
+    	
+    	</div>
+
+		<div class="letter letter-d">  
+			<div id="stemd"></div> 
+			<div id="curved"></div>  		
+    	</div>
+
+    	<div class="letter letter-e">
+    		<div id="curvee"></div> 
+    		<div id="uppercurve"> </div> 
+    		<div id="upperlefftcurve"> </div> 
+    		<div id="lowercurve"> </div> 
+    		<div id="steme"> </div> 		
+    	</div>
+
+		<div class="letter letter-f"> 
+			<div id="stemf"></div> 
+			<div id="layf"></div> 
+			<div id="middlestem"></div>		
+    	</div>
+
+    	<div class="letter letter-g">
+    		<div id="upperg"></div>
+    		<div id="lowerg"></div>
+    		<div id="leftlower"></div>
+    		<div id="leftupper"></div>
+    		<div id="lineg"></div>   		
+    	</div>
+
+		<div class="letter letter-h">
+			<div id="looph"></div>
+			<div id="stemh"></div>
+			<div id="rightstemh"></div> 
+			   		
+    	</div>
+
+    	<div class="letter letter-i"> 
+    		 
+    		<div id="topstem"></div> 
+    		<div id="bottomstem"></div>	
+    		<div id="istem"></div> 	
+    	</div>
+
+		<div class="letter letter-j"> 
+			<div id="curvej"></div> 
+			<div id="stemj"></div>  		
+    	</div>
+
+    	<div class="letter letter-k">
+    		<div id="topk"></div> 
+    		<div id="bottomk"></div> 
+    		<div id="stemk"></div> 		
+    	</div>
+
+		<div class="letter letter-l">
+			<div id="steml"></div> 
+			<div id="layl"></div>   		
+    	</div>
+
+    	<div class="letter letter-m">  
+    		<div id="leftdia"></div> 
+    		<div id="straight"></div>
+    		<div id="leftstraight"></div>
+    		<div id="rightdia"></div>
+    		 		
+    	</div>
+
+		<div class="letter letter-n">
+			<div id="stemn"></div>
+			<div id="leftn"></div> 
+			<div id="dian"></div>  		
+    	</div>
+
+    	<div class="letter letter-o"> 
+    		<div id="circle"></div>  		
+    	</div>
+
+		<div class="letter letter-p"> 
+			<div id="stemp"></div>  
+			<div id="toploop"></div>
+			<div id="bottomloop"></div> 		
+    	</div>
+
+    	<div class="letter letter-q"> 
+    		<div id="stemq"></div>
+    		<div id="loopq"></div>   		
+    	</div>
+
+		<div class="letter letter-r"> 
+			<div id="diar"></div>
+			<div id="stemr"></div> 
+			<div id="loopr"></div>
+			  		
+    	</div>
+
+		<div class="letter letter-s">
+			<div id="uppers"></div>
+			<div id="middles"></div>
+			<div id="lefts"></div>
+			<div id="bottoms"></div>
+		</div>
+
+		<div class="letter letter-t">
+			<div id="stemd"></div>
+			<div id="layt"></div>
+		</div>
+
+		<div class="letter letter-u">
+			<div id="curveu"></div>
+			<div id="stemleft"></div>
+			<div id="stemright"></div>
+			
+		</div>
+
+		<div class="letter letter-v">
+			<div id="leftv"></div>
+			<div id="rightv"></div>
+		</div>
+
+		<div class="letter letter-w">
+			<div id="leftw"></div>
+			<div id="rightw"></div>
+		</div>
+
+		<div class="letter letter-x">
+			<div id="leftx"></div>
+			<div id="rightx"></div>
+		</div>
+
+		<div class="letter letter-y">
+			<div id="curvey"></div>
+			<div id="stemy"></div>
+		</div>
+
+		<div class="letter letter-z">
+			<div id="upperz"></div>
+			<div id="lowerz"></div>
+			<div id="anglez"></div>
+			
+		</div>
+
+		
+		<!--THE CHARACTERS BELOW ARE OPTIONAL -->
+
+		<div class="letter letter-0">
+		</div>
+
+		<div class="letter letter-1">
+		</div>
+
+		<div class="letter letter-2">
+		</div>
+
+		<div class="letter letter-3">
+		</div>
+
+		<div class="letter letter-4">
+		</div>
+
+		<div class="letter letter-5">
+		</div>
+
+		<div class="letter letter-6">
+		</div>
+
+		<div class="letter letter-7">
+		</div>
+
+		<div class="letter letter-8">
+		</div>
+
+		<div class="letter letter-9">
+		</div>
+
+
+    </body>
+</html>
