@@ -1,0 +1,254 @@
+body{
+	background: aliceblue;
+	color: white;
+	zoom: 117%;
+}
+h1{
+	font-feature-settings: absolute;
+	font-family: bungee, sans-serif;
+	font-weight: 400;
+	font-style: normal;
+	color: blue;
+
+}
+
+p{
+	font-family: bungee, sans-serif;
+	font-weight: 500;
+	font-style: normal;
+	color: #003;
+}
+
+	
+.bigTitle {
+	height: 60vh;
+}
+
+.letter-m {
+	position:absolute;
+	top:-30px; left:0px;
+	transform:rotate(0deg);
+
+}
+.smallTitle{
+	position: absolute;
+top: 130px; left: 110px;
+}
+.letter-c{
+	position: absolute;
+	top: 150px; left:88px;
+	transform: rotate(15deg);
+}
+.smallTitle2{
+	position: absolute;
+top: 320px; left: 250px;
+
+}
+.letter-f{
+	position: absolute;
+	top: 160px; left:400px;
+	transform: rotate(0deg);
+}
+.smallTitle3{
+	position: absolute;
+	top: 297px; left:480px;
+}
+.letter-cc{
+	position: absolute;
+	top: -70px; left:500px;
+	transform: rotate(15deg);
+}
+.smallTitle6{
+	position: absolute;
+	top: 125px; left:655px;
+}
+
+.letter-a{
+	position: absolute;
+	top: 80px; left:800px;
+	transform: rotate(0deg);
+}
+.smallTitle4{
+	position: absolute;
+	top: 95px; left:910px;
+}
+.letter-t{
+	position: absolute;
+	top: 170px; left:880px;
+	transform: rotate(0deg);
+}
+.smallTitle5{
+	position: absolute;
+	top: 265px; left:995px;
+}
+
+h2{
+	font-feature-settings: absolute;
+	font-family: bungee, sans-serif;
+	font-weight: 400;
+	font-style: normal;
+	color: pink;
+	font-size: 220px;
+	line-height: 190px;
+	letter-spacing: 5px;
+}
+.p1{
+	line-height: 20px;
+	letter-spacing: 2.75px;
+	text-align: left;
+	text-indent: 15px;
+	height: 60vh;
+}
+.p2{
+	line-height: 18px;
+	letter-spacing: 1.75px;
+	text-align: center;
+	height: 30vh;
+}
+h3{
+	font-feature-settings: absolute;
+	font-family: bungee, sans-serif;
+	font-weight: 400;
+	font-style: normal;
+	color: pink;
+	font-size: 20px;
+	line-height: 20px;
+	letter-spacing: 2px;
+}
+.p3{
+	line-height: 19px;
+	letter-spacing: 2.05px;
+	text-align:left;
+	
+}
+.date1{
+position: absolute;
+	left: 0;
+	top: 292vh;
+	width: 15vw;
+	background: transparent;
+}
+.date2{
+	position: absolute;
+	left: 400px;
+	top: 291vh;
+	width: 15vw;
+	background: transparent;
+}
+.p4{
+	line-height: 19px;
+	letter-spacing: 1.40px;
+	text-align:left;	
+}
+
+h4{
+	font-feature-settings: absolute;
+	font-family: bungee, sans-serif;
+	font-weight: 400;
+	font-style: normal;
+	color:blue;
+	font-size: 20px;
+	line-height: 20px;
+	letter-spacing: 2px;
+}
+h5{
+	font-feature-settings: absolute;
+	font-family: bungee, sans-serif;
+	font-weight: 400;
+	font-style: normal;
+	color:pink;
+	font-size: 20px;
+	line-height: 20px;
+	letter-spacing: 2px;
+}
+.date3{
+	position: absolute;
+	left: 800px;
+	top: 290vh;
+	width: 15vw;
+	background: transparent;
+}
+.p5{
+	line-height: 20px;
+	letter-spacing:.05px;
+	text-align: left;
+	
+}
+h6{
+	font-feature-settings: absolute;
+	font-family: bungee, sans-serif;
+	font-weight: 400;
+	font-style: normal;
+	color:blue;
+	font-size: 20px;
+	line-height: 20px;
+	letter-spacing: 2px;
+}
+.date4{
+	position: absolute;
+	left: 0px;
+	top: 350vh;
+	width: 15vw;
+	background: transparent;
+}
+.p6{
+	line-height: 19px;
+	letter-spacing:0.05px;
+	text-align: left;
+}
+h7{
+	font-feature-settings: absolute;
+	font-family: bungee, sans-serif;
+	font-weight: 400;
+	font-style: normal;
+	color:pink;
+	font-size: 20px;
+	line-height: 20px;
+	letter-spacing: 2px;
+}
+.date5{
+	position: absolute;
+	left: 400px;
+	top: 357vh;
+	width: 15vw;
+	background: transparent;
+}
+.p7{
+	line-height: 18px;
+	letter-spacing: .75px;
+	text-align: left;
+	
+}
+h8{
+	font-feature-settings: absolute;
+	font-family: bungee, sans-serif;
+	font-weight: 400;
+	font-style: normal;
+	color:blue;
+	font-size: 20px;
+	line-height: 20px;
+	letter-spacing: 2px;
+}
+.date6{
+	position: absolute;
+	left: 800px;
+	top: 357vh;
+	width: 15vw;
+	background: transparent;
+}
+.p8{
+	line-height: 18px;
+	letter-spacing: .05px;
+	text-align: left;
+	
+}
+
+
+
+
+
+
+
+
+
+
