@@ -1,0 +1,31 @@
+body{
+	background: black;
+	color: white;
+}
+h1{
+	font-family: poleno, sans-serif;
+	font-weight: 400;
+	font-style: normal;
+}
+h2{
+	font-style: italic;
+	font-family: "futura";
+	font-weight: normal;
+	font-size: 10px;
+	line-height: 35px;
+	letter-spacing: 2px;
+	text-align: 50em;
+	margin-left: 50px;
+	margin-top: 30px;
+
+}
+
+.header{
+	position: fixed;
+	left: 0;
+	top: 50vh;
+	width: 15vw;
+	background: white;
+	color: black;
+
+}
